@@ -19,6 +19,10 @@ public class Message implements Serializable{
         this.type = type;
         this.auther = auther;
     }
+    
+    Message(String type) {
+        this.type = type;
+    }
 
     public String getText() { return text; }
     public String getAuther() { return auther; }
