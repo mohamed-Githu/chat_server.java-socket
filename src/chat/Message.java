@@ -28,4 +28,5 @@ public class Message implements Serializable{
     public String getAuther() { return auther; }
     public String getTime() { return time; }
     public String getType() { return type; }
+    public void setText(String text) { this.text = text; }
 }
